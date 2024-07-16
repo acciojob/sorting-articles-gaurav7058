@@ -15,7 +15,7 @@ const bands = [
             return 0;
         });
 
-        const ul = document.getElementById('band');
+        const ul = document.getElementById('bands');
         sortedBands.forEach(band => {
             const li = document.createElement('li');
             li.textContent = band;
